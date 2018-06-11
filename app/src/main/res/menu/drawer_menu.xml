@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+
+            android:id="@+id/nav_pub"
+            android:title="@string/posts_title"
+            android:icon="@drawable/ic_post"
+            />
+        <item
+            android:id="@+id/nav_coll"
+            android:title="@string/collections_title"
+            android:icon="@drawable/ic_collections"
+            />
+        <item
+            android:id="@+id/nav_comment_temp"
+            android:title="Yababa"
+            android:icon="@drawable/ic_collections"
+            />
+    </group>
+</menu>
